@@ -1,0 +1,50 @@
+/* ADD YOUR STYLES HERE */
+
+/* --- Data Table --- */
+
+/* Global */
+tr {
+	display: inline-block;
+	width: 100%;
+	border-bottom: solid 1px #999;
+	padding: 10px 0px;
+}
+
+td, th {
+	width:150px;
+	text-align: left;
+}
+
+td:last-child, th:last-child {
+	padding-right: 50px;
+}
+
+/* Stats */
+#stats{
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #999;
+}
+
+.stat-num {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.stat-label{
+	font-size: 0.8em;
+	color: #999999;
+	text-align: center;
+}
+
+/* Bar Chart */
+#bar-chart {
+	border: none;
+}
+
+.bar {
+	background-color: #0099FF;
+	padding: 3px;
+	color: #FFF;
+	font-size: 0.8em;
+}
